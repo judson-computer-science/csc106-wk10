@@ -16,9 +16,9 @@ public class Application {
 
 			if(shape instanceof Fillable) {
 				Fillable fillableShape = (Fillable) shape;
-				System.out.println("Available volume is: " + fillableShape.getRemainingVolume());
+				System.out.println("Available volume (before): " + fillableShape.getRemainingVolume());
 				fillableShape.fill(6);
-				System.out.println("Available volume is: " + fillableShape.getRemainingVolume());
+				System.out.println("Available volume (after): " + fillableShape.getRemainingVolume());
 			}
                 }
 	}
